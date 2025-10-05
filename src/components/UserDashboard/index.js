@@ -1254,7 +1254,7 @@ class UserDashboard extends Component {
           throw new Error(errorMessage);
         }
 
-        const result = await response.json();
+        // const result = await response.json();
 
         // Clear any previous status timeout
         if (this.portfolioStatusTimeout) {
@@ -1888,7 +1888,6 @@ class UserDashboard extends Component {
     return (
       <div className="dashboard-main-content">
         <div className="dashboard-header">
-          <h1></h1>
           <button className="btn btn-back" onClick={this.toggleEditMode}>
             <i className="fas fa-arrow-left"></i> Back to Profile
           </button>
@@ -2946,7 +2945,7 @@ class UserDashboard extends Component {
                               <div className="uploaded-image">
                                 <img
                                   src={project.images[imageIndex]}
-                                  alt={`Project ${projectIndex + 1} - Image ${imageIndex + 1}`}
+                                  alt={`can't load`}
                                   className="project-image"
                                 />
                                 <div className="image-overlay">

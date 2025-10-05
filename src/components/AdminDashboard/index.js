@@ -35,18 +35,18 @@ class AdminPanel extends Component {
   };
   saveNickname = async (userId) => {
     try {
-      const response = await fetch(
-        `${this.state.baseUrl}/api/user/${userId}/nickname`,
-        {
-          method: "PUT",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ nickname: this.state.editingNickname }),
-        }
-      );
+      // const response = await fetch(
+      //   `${this.state.baseUrl}/api/user/${userId}/nickname`,
+      //   {
+      //     method: "PUT",
+      //     headers: {
+      //       "Content-Type": "application/json",
+      //     },
+      //     body: JSON.stringify({ nickname: this.state.editingNickname }),
+      //   }
+      // );
 
-      const data = await response.json();
+      // const data = await response.json();
       alert("Nickname saved!");
 
       // Clear editing input

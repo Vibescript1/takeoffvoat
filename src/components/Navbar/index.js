@@ -10,7 +10,7 @@ import {
   Check,
   Search,
   ShoppingCart,
-  ChevronDown,
+  // ChevronDown,
   LogInIcon,
 } from "lucide-react";
 import "./index.css";
@@ -102,9 +102,6 @@ class NavBar extends Component {
     } else if (pathname.includes("/portfolio-list")) {
       this.setState({ activeMenu: "portfolio" });
     } else if (pathname.includes("/#contact")) {
-      {
-        /* Contact Section Active Menu Detection */
-      }
       this.setState({ activeMenu: "contact" });
     } else {
       this.setState({ activeMenu: "" });

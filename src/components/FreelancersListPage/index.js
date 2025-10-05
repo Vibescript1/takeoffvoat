@@ -1609,10 +1609,10 @@ class PortfolioList extends Component {
                   const userId =
                     portfolio.userId || portfolio._id || portfolio.id;
                   const hasValidImage = this.isValidImageUrl(profileImageUrl);
-                  const profession = portfolio.profession || "";
+                  // const profession = portfolio.profession || "";
                   const firstServicePrice =
                     this.getFirstServicePrice(portfolio);
-                  const voatId = portfolio.voatId || "Not Available";
+                  // const voatId = portfolio.voatId || "Not Available";
 
                   return (
                     <div key={userId} className="portfolio-card-simple">

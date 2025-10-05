@@ -165,7 +165,7 @@ function MegaSubmenu({ menu = DEFAULT_MENU, subtitles = SUBTITLES }) {
                 <ul className="mega-submenu-list">
                   {section.items.map((item) => (
                     <li key={item} className="mega-submenu-list-item">
-                      <a href="#" onClick={(e) => e.preventDefault()}>
+                      <a href="/" onClick={(e) => e.preventDefault()}>
                         {item}
                       </a>
                     </li>

@@ -31,9 +31,9 @@ import {
   CheckCircle,
   Loader,
   Briefcase,
-  UserCheck,
-  Search,
-  Plus,
+  // UserCheck,
+  // Search,
+  // Plus,
 } from "lucide-react";
 import { FaWhatsapp, FaXTwitter } from "react-icons/fa6";
 
@@ -1224,14 +1224,14 @@ class LandingPage extends Component {
                           ></div>
                           <ul className="details">
                             <li className="author">
-                              <a href="#">{blog.author}</a>
+                              <a href="/">{blog.author}</a>
                             </li>
                             <li className="date">{blog.date}</li>
                             <li className="tags">
                               <ul>
                                 {blog.tags.map((tag, tagIndex) => (
                                   <li key={tagIndex}>
-                                    <a href="#">{tag}</a>
+                                    <a href="/">{tag}</a>
                                   </li>
                                 ))}
                               </ul>
@@ -1253,7 +1253,7 @@ class LandingPage extends Component {
                           </p>
                           <div className="read-more">
                             <a
-                              href="#"
+                              href="/"
                               onClick={(e) => {
                                 e.preventDefault();
                                 this.toggleBlogExpansion(actualIndex);

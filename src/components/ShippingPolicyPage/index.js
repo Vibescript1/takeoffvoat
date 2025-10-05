@@ -4,11 +4,11 @@ import { Navigate } from "react-router-dom";
 import {
   Home,
   Shield,
-  Eye,
-  Lock,
-  Database,
-  UserCheck,
-  Cookie,
+  // Eye,
+  // Lock,
+  // Database,
+  // UserCheck,
+  // Cookie,
 } from "lucide-react";
 import "./index.css";
 

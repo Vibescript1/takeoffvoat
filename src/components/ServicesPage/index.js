@@ -9,8 +9,8 @@ import {
   Lightbulb,
   Calculator,
   Camera,
-  Bot,
-  Home,
+  // Bot,
+  // Home,
 } from "lucide-react";
 import "./index.css";
 import { HashLink } from "react-router-hash-link";
