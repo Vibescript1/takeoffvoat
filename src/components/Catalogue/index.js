@@ -4,7 +4,7 @@ import './index.css';
 const Catalogue = ({ 
   value = [], 
   onChange, 
-  placeholder = "web developer, interior designer, event manager, video editort, SMM, etc.,",
+  placeholder = "web developer, interior designer, event manager, video editor, SMM, etc.,",
   maxTags = 10,
   disabled = false 
 }) => {

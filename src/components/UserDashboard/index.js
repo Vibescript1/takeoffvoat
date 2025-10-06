@@ -2747,7 +2747,7 @@ class UserDashboard extends Component {
                       };
                     });
                   }}
-                  placeholder="e.g. React, Python, UX Design, Web Development"
+                  placeholder="e.g. web developer, interior designer, event manager, video editor, SMM"
                   maxTags={10}
                 />
                 {portfolioValidationErrors.catalogueTags && (

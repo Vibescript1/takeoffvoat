@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   z-index: 999;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.8);
   box-shadow: 0 1px 4px rgba(0,0,0,0.06);
   border-bottom: 1px solid rgba(0,0,0,0.04);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
@@ -23,7 +23,7 @@ body.navbar-sticky .mega-submenu {
   display: flex;
   gap: 16px;
   padding: 0 16px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.6);
   border-bottom: none;
   justify-content: center;
   min-height: 48px;
@@ -34,7 +34,7 @@ body.navbar-sticky .mega-submenu {
   background: transparent;
   border: none;
   color: #0c355a;
-  font-size: 13px;
+  font-size: 12px;
   padding: 4px 10px;
   cursor: pointer;
   position: relative;
@@ -45,8 +45,8 @@ body.navbar-sticky .mega-submenu {
 
 .mega-submenu-item.active,
 .mega-submenu-item:hover {
-  color: #fccf2b;
-  background: rgba(252, 207, 43, 0.08);
+  color: #8b5cf6;
+  background: rgba(139, 92, 246, 0.08);
 }
 
 /* Animated underline */
@@ -57,7 +57,7 @@ body.navbar-sticky .mega-submenu {
   right: 10px;
   bottom: 2px;
   height: 2px;
-  background: #fccf2b;
+  background: #8b5cf6;
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.2s, opacity 0.2s;
@@ -76,7 +76,7 @@ body.navbar-sticky .mega-submenu {
   left: 0;
   right: 0;
   top: 100%;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0,0,0,0.08);
   border-top: none;
   box-shadow: 0 20px 40px rgba(0,0,0,0.12);
@@ -99,6 +99,7 @@ body.navbar-sticky .mega-submenu {
   font-weight: 600;
   margin-bottom: 6px;
   color: #111;
+  font-size: 15px;
   transform: translateX(-6px);
   opacity: 0;
   animation: mega-stagger-left 420ms cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
@@ -119,6 +120,7 @@ body.navbar-sticky .mega-submenu {
   transition: color 160ms ease, background-color 160ms ease, transform 200ms ease;
   transform: translateX(-6px);
   opacity: 0;
+  font-size: 15px;
   animation: mega-stagger-left 460ms cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
 }
 
